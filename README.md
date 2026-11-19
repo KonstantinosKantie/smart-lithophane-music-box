@@ -44,7 +44,7 @@ A custom-designed, 3D-printed **Lithophane Music Box** built from scratch, combi
 | `D5` | Folder / Playlist Switch Button | Active LOW (`INPUT_PULLUP`) |
 | `D6` | Favorites Button | Active LOW (`INPUT_PULLUP`) |
 | `D10` | DFPlayer `TX` | `SoftwareSerial` RX (9600 baud) |
-| `D11` | DFPlayer `RX` | `SoftwareSerial` TX (1kΩ series resistor recommended) |
+| `D11` | DFPlayer `RX` | `SoftwareSerial` TX (with 1kΩ series resistor) |
 | `GND` | Common Ground | Shared across Arduino, DFPlayer, buttons, and amp |
 
 ### Power & Audio Architecture
